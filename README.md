@@ -7,6 +7,10 @@ link below.
 
 <b>Link to the dataset</b> <a href="https://github.com/mdeff/fma#data">FMA Dataset</a>
 
+## Setting up the project
+
+Run **setup.py** file in the project folder. It downloads the necessary dataset files. It might take a while don't worry :). If you want to get the music files, you can either download them from the above link or go to this <a href="https://freemusicarchive.org">link</a> and search for your required songs.
+
 ## Requirements
 
 A system having a minimum of **8GB RAM** and a processor of **Intel i5 core processor** or **above** is recommended for running this
