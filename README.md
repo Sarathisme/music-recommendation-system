@@ -30,17 +30,11 @@ If you have jupyter installed,
    ```
 2. Install python from <a href="https://www.python.org/downloads/"/>https://www.python.org/downloads</a>
 
-3. Run setup.py to get the dataset
-   ```shell 
-   $ cd path/to/setup.py
-   $ python setup.py
-   ```
-
 3. If you already have jupyter in your machine, skip the next step.
 
 4. Install jupyter either from conda or pip
     
-   If you dont have conda installed, get it from <a href="https://docs.continuum.io/anaconda/install/">https://docs.continuum.io/anaconda/install/</a>
+   >If you dont have conda installed, get it from <a href="https://docs.continuum.io/anaconda/install/">https://docs.continuum.io/anaconda/install/</a>
    
    From conda  
     ```shell 
@@ -61,7 +55,17 @@ Unfortunately at this point we do not have a .tar or a pickle file for you to qu
    ```shell
    $ cd path/to/code
    ```
-2. Open jupyter notebook
+2. Run setup.py to get the dataset installed and extracted into the project folder.
+   
+   ```shell 
+   $ cd path/to/setup.py
+   ```
+   
+   ```shell
+   $ python setup.py
+   ```
+
+3. Open jupyter notebook
 
    ```shell
    $ jupyter notebook
