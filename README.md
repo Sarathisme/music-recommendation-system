@@ -12,7 +12,7 @@ We created this project to see if we can actually understand the musical pattern
 2. [Installation](https://github.com/Sarathisme/music-recommendation-system/blob/readme-changes/README.md#installation)
 3. [Run it](https://github.com/Sarathisme/music-recommendation-system/blob/readme-changes/README.md#run-it)
 4. [Approach](https://github.com/Sarathisme/music-recommendation-system/blob/readme-changes/README.md#approach)
-5. [Improvements]()
+5. [Improvements](https://github.com/Sarathisme/music-recommendation-system/blob/readme-changes/README.md#improvements)
 
 ### Next steps
 If you have jupyter installed, 
