@@ -18,6 +18,7 @@ We created this project to see if we can actually understand the musical pattern
 If you have jupyter installed, 
 
 1. Clone the repo 
+
    ```shell
    $ git clone https://github.com/Sarathisme/music-recommendation-system.git
    ````
