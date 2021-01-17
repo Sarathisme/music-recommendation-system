@@ -8,10 +8,10 @@ A unsupervised learning model which analyses playlists and gives recommendations
 We created this project to see if we can actually understand the musical patterns of a user with his playlist as the source and what factors are really useful in determining the taste and interest of the listener.
 
 ## Table of Contents
-1. [Next Steps]()
-2. [Installation]()
-3. [Run it]()
-4. [Approach]()
+1. [Next Steps](https://github.com/Sarathisme/music-recommendation-system/blob/readme-changes/README.md#next-steps)
+2. [Installation](https://github.com/Sarathisme/music-recommendation-system/blob/readme-changes/README.md#installation)
+3. [Run it](https://github.com/Sarathisme/music-recommendation-system/blob/readme-changes/README.md#run-it)
+4. [Approach](https://github.com/Sarathisme/music-recommendation-system/blob/readme-changes/README.md#approach)
 5. [Improvements]()
 
 ### Next steps
@@ -21,7 +21,7 @@ If you have jupyter installed,
    ```shell
    $ git clone https://github.com/Sarathisme/music-recommendation-system.git
    ````
-2. Visit the [Run It]() section
+2. Visit the [Run It](https://github.com/Sarathisme/music-recommendation-system/blob/readme-changes/README.md#run-it) section
 
 ### Installation
 1. Clone this repo to get the .ipynb files
@@ -72,3 +72,4 @@ Unfortunately at this point we do not have a .tar or a pickle file for you to qu
 
 ### Approach
 
+### Improvements
