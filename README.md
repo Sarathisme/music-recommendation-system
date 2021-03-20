@@ -58,10 +58,6 @@ Unfortunately at this point we do not have a .tar or a pickle file for you to qu
    ```
 2. Run setup.py to get the dataset installed and extracted into the project folder.
    
-   ```shell 
-   $ cd path/to/setup.py
-   ```
-   
    ```shell
    $ python setup.py
    ```
