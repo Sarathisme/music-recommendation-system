@@ -11,11 +11,9 @@ We created this project to see if we can actually understand the musical pattern
 1. [Next Steps](https://github.com/Sarathisme/music-recommendation-system/blob/readme-changes/README.md#next-steps)
 2. [Installation](https://github.com/Sarathisme/music-recommendation-system/blob/readme-changes/README.md#installation)
 3. [Run it](https://github.com/Sarathisme/music-recommendation-system/blob/readme-changes/README.md#run-it)
-4. [Approach](https://github.com/Sarathisme/music-recommendation-system/blob/readme-changes/README.md#approach)
-5. [Improvements](https://github.com/Sarathisme/music-recommendation-system/blob/readme-changes/README.md#improvements)
 
 ### Next steps
-If you have jupyter installed, 
+If you have jupyter and python installed, 
 
 1. Clone the repo 
 
@@ -24,7 +22,7 @@ If you have jupyter installed,
    ````
 2. Visit the [Run It](https://github.com/Sarathisme/music-recommendation-system/blob/readme-changes/README.md#run-it) section
 
-### Installation
+### Instal Jupyter and Python
 1. Clone this repo to get the .ipynb files
    ```shell
    $ git clone https://github.com/Sarathisme/music-recommendation-system.git
@@ -74,7 +72,3 @@ Unfortunately at this point we do not have a .tar or a pickle file for you to qu
  
 3. Open `Music Recommendation System (Data Processing and Analysis).ipynb` for data processing and analysis
 4. Open `Music Recommendation System (Machine Learning).ipynb` for machine learning. This also has the recommendations code.
-
-### Approach
-
-### Improvements
