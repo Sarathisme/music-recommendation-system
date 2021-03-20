@@ -1,49 +1,72 @@
 # Music Recommendation System
+A unsupervised learning model which analyses playlists and gives recommendations. Dataset used is <a href="https://github.com/mdeff/fma#data">FMA</a>.
 
-This is a unsupervised learning system which analyses multiple users playlists and gives recommendations 
-for a particular playlist of a user. This model is a **user-to-user** based recommendation system. The dataset
-considered for this project is the music analysis dataset **FMA** and the link for the dataset files is given in a
-link below.
 
-<b>Link to the dataset</b> <a href="https://github.com/mdeff/fma#data">FMA Dataset</a>
+<img width="300px" src="https://media.giphy.com/media/tqfS3mgQU28ko/giphy.gif" />
 
-## Setting up the project
+### Why
+We created this project to see if we can actually understand the musical patterns of a listener with their playlist as source and what factors are really useful in determining the taste and interest of the listener.
 
-Run **setup.py** file in the project folder. It downloads the necessary dataset files. It might take a while don't worry :). If you want to get the music files, you can either download them from the above link or go to this <a href="https://freemusicarchive.org">link</a> and search for your required songs.
+## Table of Contents
+1. [Next Steps](https://github.com/Sarathisme/music-recommendation-system/blob/readme-changes/README.md#next-steps)
+2. [Installation](https://github.com/Sarathisme/music-recommendation-system/blob/readme-changes/README.md#installation)
+3. [Run it](https://github.com/Sarathisme/music-recommendation-system/blob/readme-changes/README.md#run-it)
 
-## Requirements
+### Next steps
+If do not have jupyter and python visit [Install Jupyter and Python](https://github.com/Sarathisme/music-recommendation-system/tree/readme-changes#instal-jupyter-and-python)
 
-A system having a minimum of **8GB RAM** and a processor of **Intel i5 core processor** or **above** is recommended for running this
-project.
+If you have them, proceed with the below steps.
 
-## Dataset description
+1. Clone the repo 
 
-The dataset considered is a music analysis dataset which not only consists of the common attributes such as **artist name**,
-**song name** etc but also the properties of the music such as the **echo**, **beats per minute** were also considered and 
-analysed for giving recommendations.
+   ```shell
+   $ git clone https://github.com/Sarathisme/music-recommendation-system.git
+   ````
+2. Visit the [Run It](https://github.com/Sarathisme/music-recommendation-system/blob/readme-changes/README.md#run-it) section
 
-## Approach to the problem
+### Instal Jupyter and Python
+1. Clone this repo to get the .ipynb files
+   ```shell
+   $ git clone https://github.com/Sarathisme/music-recommendation-system.git
+   ```
+2. Install python from <a href="https://www.python.org/downloads/"/>https://www.python.org/downloads</a>
 
-The dataset consists of four **csv** files each depicting a feature of the song such as metadata, features etc. Each were cleaned
-individually and were combined based on the common key i.e. **track id**. The data was divided into train data and test data,
-the **train data** representing a **combination of multiple user playlists** and the **test data** depicting a **single user playlist**.
+3. If you already have jupyter in your machine, skip the next step.
 
-## Giving Recommendations
+4. Install jupyter either from conda or pip
+    
+   >If you dont have conda installed, get it from <a href="https://docs.continuum.io/anaconda/install/">https://docs.continuum.io/anaconda/install/</a>
+   
+   From conda  
+    ```shell 
+    $ conda install -c conda-forge jupyterlab
+    $ conda install -c conda-forge notebook
+    ```
+    From pip (pip is auto installed when you install python)
+    ```shell 
+    $ pip install jupyterlab
+    $ pip install notebook
+    ```
 
-Clustering algorithms were used to provide predictions for the data. Recommendations were given based on the following three methods after
-obtaining a set of recommendations:
+### Run it
+Unfortunately at this point we do not have a .tar or a pickle file for you to quickly plug and play the code.
 
-<ol>
-  <li>The most <b>frequent genre</b> heard by the user is observed and the songs in the **recommendation set** having the particular genre are 
-  given as final recommendations</li>
-  <li>The most <b>frequent artist</b> heard by the user is observed and the songs in the **recommendation set** having the particular artist are 
-  given as final recommendations</li>
-  <li>The <b>top ten of songs</b> in the recommendations are also given as recommendations</li>
-</ol>
+1. Go to the cloned folder
 
-<b>NOTE: </b> The above procedures were followed so as to decrease the huge number of recommendations obtained from the predictions
+   ```shell
+   $ cd path/to/code
+   ```
+2. Run setup.py to get the dataset installed and extracted into the project folder.
+   
+   ```shell
+   $ python setup.py
+   ```
 
-## Evaluation Metrics
+3. Open jupyter notebook
 
-As it is a recommendation system, there is no evaluation metric like accuracy or RMSE. User's satisfaction is the only metric in this case :)
-
+   ```shell
+   $ jupyter notebook
+   ```
+ 
+3. Open `Music Recommendation System (Data Processing and Analysis).ipynb` for data processing and analysis
+4. Open `Music Recommendation System (Machine Learning).ipynb` for machine learning. This also has the recommendations code.
