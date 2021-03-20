@@ -13,9 +13,9 @@ We created this project to see if we can actually understand the musical pattern
 3. [Run it](https://github.com/Sarathisme/music-recommendation-system/blob/readme-changes/README.md#run-it)
 
 ### Next steps
-If you have jupyter and python installed, proceed with the below steps.
+If do not have jupyter and python visit [Install Jupyter and Python](https://github.com/Sarathisme/music-recommendation-system/tree/readme-changes#instal-jupyter-and-python)
 
-If not visit [Install Jupyter and Python](https://github.com/Sarathisme/music-recommendation-system/tree/readme-changes#instal-jupyter-and-python)
+If you have them, proceed with the below steps.
 
 1. Clone the repo 
 
